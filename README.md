@@ -34,25 +34,25 @@ You have two options to install the node.
 
 ## Node usage
 
-### Step 1
+### Step 01
 
 Go to [Teachable Machine](https://teachablemachine.withgoogle.com/train/image) and follow the steps to train your custom classification model. Once trained click on the `Export Model` button.
 
 ![teachable_machine_export](https://user-images.githubusercontent.com/37800834/80190158-18b1e100-8614-11ea-9ccf-6668e49e7e2d.png)
 
-### Step 2
+### Step 02
 
 Select `Tensorflow.js` format and upload your trained model (for free). Once it is uploaded, copy the generated URL.
 
 ![use_teachable_machine](https://user-images.githubusercontent.com/37800834/79056723-8431a100-7c59-11ea-9488-346f4f8e6004.png)
 
-### Step 3
+### Step 03
 
 Paste the saved URL into the node configuration. That URL hosts all the information to load your trained model. Make sure you copy all the given URL including the `https://...`.
 
 ![config](https://user-images.githubusercontent.com/37800834/80922980-e8d7ab80-8d80-11ea-8c0c-89d1008455da.png)
 
-### Step 4
+### Step 04
 
 In `Node-RED` send a buffered image (jpeg or png) to the node. Check the example in the `Import` section.
 
@@ -79,3 +79,5 @@ In `Node-RED` send a buffered image (jpeg or png) to the node. Check the example
 ## Mentions
 
 - [@dceejay](https://github.com/dceejay): who inspired me thanks to node [node-red-contrib-tfjs-coco-ssd](https://github.com/dceejay/tfjs-coco-ssd/)
+
+Prova "propose" (ignorar)
